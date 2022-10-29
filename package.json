@@ -1,0 +1,22 @@
+
+
+{
+  "name": "zuri-node-portfolio",
+  "version": "1.0.0",
+  "description": "A simple portfolio page with node",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Faith Osagioduwa",
+  "license": "ISC",
+  "json.schemas": [
+    {
+      "fileMatch": ["/package.json"],
+      "url": "https://json.schemastore.org/package",
+      "schema": true
+    }
+  ]
+}
+
